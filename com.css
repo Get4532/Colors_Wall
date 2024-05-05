@@ -1,0 +1,25 @@
+.container {
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #edf3f2;
+    color: #030303;
+    
+    
+    }
+    
+    .btn {
+        display: inline-block;
+        background-color: #21ac8e;
+        box-shadow: 0 2px 5px rgba(12, 12, 12, 0.945);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        }
+    
+        .btn:hover {
+            background-color: #535353;
+            }

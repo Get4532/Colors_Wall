@@ -1,0 +1,143 @@
+body
+{ display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+border: 1px solid ;
+border-radius: 5px;
+}
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+background-color: #eff1ef;
+}
+
+.container {
+width: 290px;
+margin: 150px auto;
+padding: 20px;
+border-radius: 10px;
+box-shadow: rgb(9, 9, 9);
+
+}
+
+
+h1 {
+text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #21ac8e;
+    color: #21ac8e;
+    box-shadow: 0 2px 5px rgba(12, 12, 12, 0.945);
+
+    }
+    
+label {
+margin-top: 10px;
+}
+
+input {
+    display: inline-block;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 5px rgba(12, 12, 12, 0.945);
+    color: rgb(12, 12, 12);
+    padding: 10px 20px;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#username:hover {
+    background-color: #5d9889;
+    -webkit-text-fill-color: #eff1ef;
+    }
+
+    #Fullname:hover {
+        background-color: #5d9889;
+        -webkit-text-fill-color: #eff1ef;
+        }
+
+        #Number:hover {
+            background-color: #5d9889;
+            -webkit-text-fill-color: #eff1ef;
+            }
+
+            #pass:hover {
+                background-color: #5d9889;
+                -webkit-text-fill-color: #eff1ef;
+                }
+            
+                #addr:hover {
+                    background-color: #5d9889;
+                    -webkit-text-fill-color: #eff1ef;
+                    }
+
+                      #password:hover {
+                        background-color: #5d9889;
+                        -webkit-text-fill-color: #eff1ef;             
+               }
+    
+               #prof:hover {
+                background-color: #5d9889;
+                -webkit-text-fill-color: #eff1ef;             
+       }
+
+#button {
+    display: inline-block;
+    background-color: #21ac8e;
+    box-shadow: 0 2px 5px rgba(12, 12, 12, 0.945);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #404242;
+    }
+
+.btn {
+    display: inline-block;
+    background-color: #515353;
+    box-shadow: 0 2px 5px rgba(12, 12, 12, 0.945);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #21ac8e;
+        }
+
+        .btn1 {
+            display: inline-block;
+            background-color: #4c4d4d;
+            box-shadow: 0 2px 5px rgba(12, 12, 12, 0.945);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            }
+        
+            .btn1:hover {
+                background-color: #21ac8e;
+                }

@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    }
+    
+    
+    main {
+    padding: 20px;
+    
+    background-image: url('D:\project CW\Images\BFG1.jpg');
+    }
+    
+    
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    }
+    
+    #search-bar {
+        width: 350px;
+        height: 30PX;
+        border-radius: 15px;
+        padding-left: 15px;
+        padding-right: 10px;
+        box-shadow: 0 2px 5px rgba(31, 30, 30, 0.945);
+    
+    }
+    
+    #search-bar:hover {
+        background-color: #3f4544;
+        color: #fff;
+    }
+    
+    #search-btn{
+        border-radius: 15px;
+        background-color: #21ac8e;
+        padding: 5px;
+        color: white;
+        border-color: #21ac8e;
+        border-style: solid;
+        box-shadow: 0 2px 5px rgba(31, 30, 30, 0.945);
+    }
+    
+    #search-btn:hover {
+        background-color: #444;
+        }
+    
+    .container {
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #21ac8e;
+    
+    }
+    
+    .container1 {
+        max-width: 3000px;
+        margin: 0 auto;
+        padding: 100px 0;
+        background: transparent;
+        
+        }
+    
+            
+    li {
+     float:left;
+    }
+    
+    #logo{
+        height: 50px;
+        padding-top: 20px;
+    }
+    
+    .logo-text {
+        display :inline;
+    }
+    
+    #heading{
+        color: white;
+    }
+    
+    
+    
+    
+    .hero {
+        text-align: center;
+        
+        background-image: url("cb.gif");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        }
+        
+    .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    }
+    
+    .hero p {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    }
+    
+    .btn {
+    display: inline-block;
+    background-color: #21ac8e;
+    box-shadow: 0 2px 5px rgba(31, 30, 30, 0.945);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 150px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    }
+    
+    
+    .btn:hover {
+    background-color: #444;
+    }
+    
+    .products {
+     padding: 40px 0;
+    }
+    
+    .products h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    grid-gap: 20px;
+    box-shadow: #1aa577;
+    }
+    
+    .product-card {
+    background-color: #fff;
+    padding: 10px;
+    width: 30%;
+    height: 450px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    }
+    
+    .product-card img {
+        width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+    }
+    
+    .product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    }   
+    
+    .product-card p {
+    color: #555;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    }
+    
